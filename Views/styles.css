@@ -1,0 +1,173 @@
+html, body {
+    width: 80%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.space{
+    margin-bottom: 2px;
+    margin-top: 10px;
+}
+
+.welcomeLinks{
+    margin: 5px;
+
+}
+
+#WelcomePage{
+    color: #3399ff;
+
+}
+
+#indexDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#welcomeDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+#error {
+    font-size: 20px;
+    font-weight: bold;
+    color: darkred;
+}
+
+
+.tablePerson{
+    margin: 0px auto;
+    border-width: medium;
+    border-collapse:collapse;
+    border-color:#ccc;
+    border-spacing:0px;
+}
+.tablePerson th{
+    background-color:#f0f0f0;
+    border-color:#ccc;
+    border-style:solid;
+    border-width:1px;
+    color:#333;
+    font-family:Arial, sans-serif;
+    font-size:16px;
+    font-weight:bold;
+    overflow:hidden;
+    padding:10px 10px;
+    word-break:normal;
+}
+.tablePerson td{
+    background-color:#fff;
+    border-color:#ccc;
+    border-style:solid;
+    border-width:1px;
+    color:#333;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    overflow:hidden;
+    padding:10px 10px;
+    word-break:normal;
+}
+.tableStock{
+    margin: 0px auto;
+    border-width: medium;
+    border-collapse:collapse;
+    border-color:#ccc;
+    border-spacing:0px;
+}
+.tableStock th{
+    background-color:#f0f0f0;
+    border-color:#ccc;
+    border-style:solid;
+    border-width:1px;
+    color:#333;
+    font-family:Arial, sans-serif;
+    font-size:16px;
+    font-weight:bold;
+    overflow:hidden;
+    padding:10px 10px;
+    word-break:normal;
+}
+.tableStock td{
+    background-color:#fff;
+    border-color:#ccc;
+    border-style:solid;
+    border-width:1px;
+    color:#333;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    overflow:hidden;
+    padding:10px 10px;
+    word-break:normal;
+}
+.tableTransaction{
+    margin: 0px auto;
+    border-width: medium;
+    border-collapse:collapse;
+    border-color:#ccc;
+    border-spacing:0px;
+}
+.tableTransaction th{
+    background-color:#f0f0f0;
+    border-color:#ccc;
+    border-style:solid;
+    border-width:1px;
+    color:#333;
+    font-family:Arial, sans-serif;
+    font-size:16px;
+    font-weight:bold;
+    overflow:hidden;
+    padding:10px 10px;
+    word-break:normal;
+}
+.tableTransaction td{
+    background-color:#fff;
+    border-color:#ccc;
+    border-style:solid;
+    border-width:1px;
+    color:#333;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    overflow:hidden;
+    padding:10px 10px;
+    word-break:normal;
+}
+
+label {
+    display: inline-block;
+    width:130px;
+    text-align: right;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
+#button{
+    margin: 0;
+    position: absolute;
+    left: 27%;
+    font-size: 16px;
+    background-color: #4CAF50; /* Green */
+    border: 2px solid #4CAF50;
+    color: white;
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+#buttonDelete{
+    margin: 0;
+    position: absolute;
+    left: 27%;
+    font-size: 16px;
+    background-color: red;
+    border: 2px solid grey;
+    color: white;
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+}
